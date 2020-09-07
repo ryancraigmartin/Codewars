@@ -5,5 +5,5 @@ Array can contain numbers or strings. X can be either. Return true if the array 
 */
 
 function check(a,x) {
-  return a.includes(x);   
+  return a.includes(x);
 };

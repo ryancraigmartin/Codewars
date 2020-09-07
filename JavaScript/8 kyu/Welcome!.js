@@ -1,4 +1,4 @@
-/* 
+/*
 Your start-up's BA has told marketing that your website has a large audience in Scandinavia and surrounding countries. Marketing thinks it would be great to welcome visitors to the site in their own language. Luckily you already use an API that detects the user's location, so this is an easy win.
 
 The Task
@@ -31,7 +31,7 @@ IP_ADDRESS_REQUIRED - no ip address was supplied
 
 function greet(language) {
 
-	var obj = { 
+	var obj = {
   english: 'Welcome',
   czech: 'Vitejte',
   danish: 'Velkomst',
@@ -50,6 +50,6 @@ function greet(language) {
   swedish: 'Valkommen',
   welsh: 'Croeso'
   }
-  
+
   return obj[language] || obj.english;
 }
